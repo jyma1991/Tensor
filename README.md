@@ -1,4 +1,4 @@
-Array: C++ multidimensional array with functionalities: supporting slice in place, operations on sliced array in place, map in place, reshape, transpose, iterator (STL algorithms can be used on the array, for example sorting in place), sum by axes. Optimized for speed. Currently max dimension is 6.
+Array is a Numpy clone in C++. It supports functionalities: slice in place, operations on sliced array in place, map in place, reshape, transpose, iterator (STL algorithms can be used on the array, for example sorting in place), sum by axes. Optimized for speed. Currently max dimension is 6.
 
 Required packages: pthread, libunwind for debugging, GSL for random numbers (https://www.gnu.org/software/gsl/), FFTW for Fourier transform (http://www.fftw.org/)
 
